@@ -1,0 +1,51 @@
+{"contenido":[
+		{"tag":"saludo",
+			"patrones":["hola", "un saludo", "hello", "hi", "buen dia"],
+			"respuestas":["¡Hola! Soy DAVE, pregúntame algo sobre el TDA"]
+		},
+		{"tag":"despedida",
+			"patrones":["adios", "bye", "hasta la proxima", "gracias"],
+			"respuestas":["Cuidate", "Un placer", "Nos vemos pronto", "Te estare esperando", "Espero haberte ayudado"]
+		},
+		{"tag":"tener tda",
+			"patrones":["tengo", "tengo tda", "tener", "saber si tengo tda"],
+			"respuestas":["Si no puedes ver una película completa, si te distraes con facilidad, si pierdes cosas muy seguido o si tienes problemas para dormir, es posible que sufras de TDA. Deberías consultar a un especialista."]
+		},
+		{"tag":"definicion",
+			"patrones":["que es?", "significa", "definicion"],
+			"respuestas":["Es un trastorno biológico del comportamiento que se caracteriza por tener patrones persistentes de inatención o impulsividad que interfiere con el funcionamiento o desarrollo (Fuente: DSM-V)."]
+		},
+		{"tag":"tratamiento",
+			"patrones":["cura", "tratamiento", "tratable", "curable", "tiene cura"],
+			"respuestas":["No se cura, para controlarlo hay tratamientos médicos o alternativos que funcionan, pero dependen de varios factores como la edad del diagnóstico, los fármacos preescritos, el tratamiento pedagógico y psicológico o la intervención de la familia."]
+		},
+		{"tag":"grave",
+			"patrones":["Es grave", "grave", "peligroso", "es peligroso"],
+			"respuestas":["Se clasifica en tres niveles: TDA, TDA-H y TDA-H con impulsividad. No son padecimientos graves, controlados pueden permitir a la persona ser completamente funcional."]
+		},
+		{"tag":"mas",
+			"patrones":["mas informacion", "saber mas", "informacion", "conocer mas"],
+			"respuestas":["Si quieres saber más sobre el área clínica, puedes consultar el manual DSM-V. Si quieres saber más acerca del comportamiento real de una persona con TDA, puedes ver los TikToks de @connordewolfe."]
+		},
+		{"tag":"sintomas",
+			"patrones":["sintomas", "que sintomas tiene", "manifestaciones", "efectos", "consecuencias"],
+			"respuestas":["Ser olvidadizo en actividades diarias, no seguir instrucciones, no finalizar tareas, perder cosas con frecuencia, evitar tareas que requieren un esfuerzo mental sostenido, dificultad para organizarse."]
+		},
+		{"tag":"alternativas",
+			"patrones":["alternativas", "medicina", "homeopatia", "alternativa"],
+			"respuestas":["De acuerdo a la decisión de la familia se puede medicar, utilizar medicina alternativa, llevar un régimen alimenticio o utilizar actividades extra curriculares para disminuir los síntomas y ayudar a la funcionalidad de la persona."]
+		},
+		{"tag":"especialista",
+			"patrones":["especialista", "cual especialista?", "consulta", "consultar", "acudir"],
+			"respuestas":["Psicólogo, paidopsiquiatra o neurólogo."]
+		},
+		{"tag":"tdah",
+			"patrones":["tdah", "tda-h"],
+			"respuestas":["Aparte del TDA, existe el TDA-H, que se caracteriza por, además de todo lo que conlleva el TDA, acompañarse de hiperactividad. Las personas con hiperactividad tienden a necesitar estar en constante movimiento. Algunos síntomas son el deambular, el estar en movimento constante, el hablar en exceso o la dificultad para participar en actividades silenciosas como la lectura."]
+		},
+		{"tag":"impulsividad",
+			"patrones":["impulsividad"],
+			"respuestas":["La impulsividad puede acompañar al TDA o al TDA-H. Se caracteriza por tener reacciones rápidas, inesperadas y desmedidas ante las situaciones. La persona no puede controlarse y sucumbe ante cualquier tentación o deseo que sienta sin tener en cuenta las consecuencias de sus actos."]
+		}
+	]
+}
