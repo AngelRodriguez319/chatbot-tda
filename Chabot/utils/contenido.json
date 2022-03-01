@@ -1,10 +1,10 @@
 {"contenido":[
-		{"tag":"saludo",
-			"patrones":["hola", "un saludo", "hello", "hi", "buen dia"],
+		{"tag":"saludo", 
+			"patrones":["hola", "un saludo", "hello", "hi", "buen dia","mucho gusto","buenas tardes","buenas noches","si","eh","oye"],
 			"respuestas":["¡Hola! Soy DAVE, pregúntame algo sobre el TDA"]
 		},
 		{"tag":"despedida",
-			"patrones":["adios", "bye", "hasta la proxima", "gracias"],
+			"patrones":["adios", "bye", "hasta la proxima", "gracias","hasta luego","chao","chau","tchao"],
 			"respuestas":["Cuidate", "Un placer", "Nos vemos pronto", "Te estare esperando", "Espero haberte ayudado"]
 		},
 		{"tag":"tener tda",
@@ -12,11 +12,11 @@
 			"respuestas":["Si no puedes ver una película completa, si te distraes con facilidad, si pierdes cosas muy seguido o si tienes problemas para dormir, es posible que sufras de TDA. Deberías consultar a un especialista."]
 		},
 		{"tag":"definicion",
-			"patrones":["que es?", "significa", "definicion"],
+			"patrones":["que es?", "significa", "definicion","explicacion","descripcion","aclaracion"],
 			"respuestas":["Es un trastorno biológico del comportamiento que se caracteriza por tener patrones persistentes de inatención o impulsividad que interfiere con el funcionamiento o desarrollo (Fuente: DSM-V)."]
 		},
 		{"tag":"tratamiento",
-			"patrones":["cura", "tratamiento", "tratable", "curable", "tiene cura"],
+			"patrones":["cura","curar","tratamiento", "tratable", "curable", "tiene cura","sanar","recuperar"],
 			"respuestas":["No se cura, para controlarlo hay tratamientos médicos o alternativos que funcionan, pero dependen de varios factores como la edad del diagnóstico, los fármacos preescritos, el tratamiento pedagógico y psicológico o la intervención de la familia."]
 		},
 		{"tag":"grave",
@@ -46,6 +46,234 @@
 		{"tag":"impulsividad",
 			"patrones":["impulsividad"],
 			"respuestas":["La impulsividad puede acompañar al TDA o al TDA-H. Se caracteriza por tener reacciones rápidas, inesperadas y desmedidas ante las situaciones. La persona no puede controlarse y sucumbe ante cualquier tentación o deseo que sienta sin tener en cuenta las consecuencias de sus actos."]
+		},
+		{"tag":"descubrimiento",
+			"patrones":["año descubrio" , " descrubrio", "padre tdah", "padre del tda"],
+			"respuestas":["1845, Heinrich Hoffmann es el primero en describir el comortamiento de niños hiperactivos. 1902, George Still describió los síntomas del que hoy conocemos como TDAH combinado"]
+		},
+		{"tag":"cantidadtda",
+			"patrones":["mexico tdah", "mexico tda", "cuantas personas con tdah", "cuantas personas con tda" , "cuantos mexicanos"],
+			"respuestas":["En México se estima que hay aproximadamente 33 millones de niños y adolescentes, de los cuales 1.5 millones podrían ser diagnosticados con TDAH."]
+		},
+		{"tag":"sintomastda",
+			"patrones":["sintomas tda" , "señal de tda", "indicio de tda", "signo tda" , "signos tda" , "señales tda"],
+			"respuestas":["cualquier tarea que implique atencion o concentracion les supone un esfuezo mayor que no simepre son capaces de mantener al final ,Dispersion mental, distracion constante, cuesta entender de modo claro y rapido, no entiende las ordenes por completo, dificultad para organizarse, gran distraccion"]
+		},
+		{"tag":"sintomastdah",
+			"patrones":["sintomas tdah" , "señal de tdah", "indicio de tdah", "signo tdah" , "signos tdah" , "señales tdah", "sintomas tda-h" , "señal de tda-h", "indicio de tda-h", "signo tda-h" , "signos tda-h" , "señales tda-h"],
+			"respuestas":["Incapacidad para quedarse quieto y concentrarse en algo, siempre está moviendo los pies, se muerde las uñas, se expresa demasiado al hablar e interrumpe con facilidad a los demás,  es muy impaciente, le cuesta estar sentado de forma relajada"]
+		},
+		{"tag":"tdaytdah",
+			"patrones":["diferencia" , "diferencia tda y tdah", "diferencia tda y tda-h" , "tda y tdah", "tda y tda-h", "semejanza tda y tdah", "semejanza tda y tda-h"],
+			"respuestas":["TDA-H: Es un trastorno del desarrollo caracterizado por niveles de falta de atención, sobreactividad, impulsividad inapropiados desde el punto de vista evolutivo. Se muestran muy inquietos cuando deben permanecer sentados. En situaciones inadecuadas corre o trapa de manera excesiva. Como expresan muchas madres de niños hiperactivos, -es como si estuviera literalmente impulsado por un motor-. Continuamente está hablando, teniendo grandes dificultades en permanecer callado. En comparación, con la población del subtipo con déficit de atención, puede presentar más agresividad. --TDA, involucra falta de atención y concentración, así como también un comportamiento de distracción. Los niños que padecen de este subtipo no son excesivamente activos y tampoco interrumpen las clases; más bien ellos típicamente no completan sus tareas, se distraen con facilidad, cometen errores imprudentes y evitan actividades que requieren de trabajo mental continuo y de mucha concentración con frecuencia se les malinterpreta como perezosos, desmotivados e irresponsables.  Ellos representan aproximadamente el 30porciento de todos los individuos que padecen del TDAH."]
+		},
+		{"tag":"probabilidadtda",
+			"patrones":["es mas probable que un niño tenga tdah","es mas probable que una niña tenga tdah","quienes tienen mas posibilidades de padecer tdah" ,"lo niños o las niñas" ,"las niñas o los niños"],
+			"respuestas":["Con respecto a la relación entre los sexos, los niños son más propensos que las niñas a sufrir TDAH, en cifras que varían de 4 a 1. El TDAH que combina todos los síntomas es el más común en varones de edad escolar, mientras que el trastorno en el cual predomina el déficit de atención, es más usual entre chicas adolescentes."]
+		},
+		{"tag":"manifestacion",
+			"patrones":["el tdah se manifiesa de la misma manera en todas las edades","el tdahse manifiesta de la misma manera?","el tdha se manfiesta de la misma manera en todas las personas", "el tdah es igual para todos" ,"a todos les pasa igual", "manifiesta", "se presenta"],
+			"respuestas":["TDAH es un trastorno complejo, cuyos síntomas están presentes en muy distinto grado en cada persona. Además, las consecuencias que estos síntomas pueden producir en un individuo son influidos por aspectos ambientales y personales."]
+		},
+		{"tag":"hereditario",
+			"patrones":["hereditario tda","hereditario","se transmite el tdah","puedo heredar el tdah","mis hijos pueden tener tdah" ,"es genetico","tdah genetico"],
+			"respuestas":["El TDAH tiene un componente genético importante, que determina hasta el 70% del trastorno. Sin embargo, los factores biológicos no genéticos y ambientales juegan también un papel importante en su desarrollo y, sobre todo, en la forma de manifestarse. Aunque su presencia en algún miembro de la familia es un factor de riesgo para los descendientes, no todos los niños con TDAH tienen antecedentes familiares."]
+		},
+		{"tag":"temporal",
+			"patrones":["tdah pasa con el tiempo","se cura con el tiempo","cuanto tiempo dura el tdah","tiempo dura tdah" ,"pasa con el tiempo tdah" ,"es para siempre el tdah","dura poco el tdah","cuanto dura el tdah" ,"tendré tdah toda la vida" ,"siempre seré hiperactivo"],
+			"respuestas":["La hiperactividad es el resultado de una alteración evolutiva que afecta a la maduración de algunas funciones mentales y al desarrollo del niño. Esto supondrá una realización defectuosa de ciertos aprendizajes. Se estima que más del 80% de los niños que presentan el trastorno continuarán padeciéndolo en la adolescencia, y entre el 30-65% lo presentarán también en la edad adulta. Sin embargo, las manifestaciones del trastorno irán variando notablemente a lo largo de la vida. Sólo un buen tratamiento podrá mejorar el comportamiento hiperactivo."]
+		},
+		{"tag":"tdamalo",
+			"patrones":["un niño con tdah actua con mala intencion","niños con tdha son malos" ,"niños tdah malos","personas con tdah son malos" ,"niña con tdah es mala","tdah mala conducta","niños con tdah tienen mala conducta","tdah conducta negativa","conducta no intencionada tdah"],
+			"respuestas":["dado que en gran parte, sus comportamientos dependen de los síntomas del trastorno y de su dificultad para retener lo aprendido y aplicar los aprendizajes (incluidos los de normas de conducta). Es evidente, entonces, que sus conductas negativas no son intencionadas. Además, el primero que sufre las graves consecuencias negativas de las mismas es el propio niño."]
+		},
+		{"tag":"castigar",
+			"patrones":["castigar tdah","el castigo es bueno para controlar comportamiento de tdah","castigo tdah","si castigo a mi hijo con tdah","si castigo a mi hijo","castigar","golpear","reprender" ,"golepeo","castigo eficaz"],
+			"respuestas":["se ha demostrado que el castigo sistemático es absolutamente ineficaz y perjudicial en la educación de los niños con TDAH. Estos niños tienen dificultades para retener y aplicar lo aprendido; esto no sólo ocurre en el ámbito académico, sino en general. Al niño con TDAH le cuesta entender lo que se puede o no se puede hacer; por ello, los castigos parecen ineficaces. En la mayor parte de los casos, les supone una forma de represión injusta que les incapacita para aprender las normas de comportamiento."]
+		},
+		{"tag":"limitaciones",
+			"patrones":["limitaciones de niños con tdah","limitaciones de tdah","limitaciones de personas con tdah","limitaciones tdah","rendimiento de una persona con tdah","rendimiento tdah","que puede hacer una persona con tdah","niño con tdah puede estudiar","escuela tdah","puede ir a la escuela un niño con tdah" ,"estudiar tdah"],
+			"respuestas":["El TDAH no supone una incapacidad, pero sí dificultades en muchas facetas del desarrollo normal del niño. En el niño con TDAH existen alteraciones que producirán un rendimiento académico pobre, asociado a una baja autoestima, alteraciones emocionales y problemas en la integración social. Si bien estos síntomas no suelen incapacitar a los niños con TDAH a alcanzar ciertas metas profesionales, éstos suponen verdaderas limitaciones con el paso del tiempo: en el rendimiento escolar, en las relaciones interpersonales, en el desarrollo de la personalidad."]
+		},
+		{"tag":"padres",
+			"patrones":["tengo la culpa que mi hijo tenga tdah","soy responsable que mi hijo tenga tdah","tengo culpa hijo tdah","tienen los padres la culpa de que el hijo padezca tdah","padres culpables del tdah","madre culpable de tdah","padre culpable de tdah","abuelos culpables de tdah","familia responsable de tdah"],
+			"respuestas":["los padres no tienen la culpa. El entorno familiar del niño con TDAH puede mitigar o potenciar la aparición de ciertos problemas de conducta. Las familias de los niños con TDAH son más castigadoras, más autoritarias y más negativas, pero esto es a menudo motivado por la propia conducta del niño. Sin embargo, la modificación de esos patrones familiares facilitará el mejor desarrollo del niño con TDAH"]
+		},
+		{"tag":"otrostrasntornos",
+			"patrones":["que mas afecta el tdah","conlleva otros transtornos","otros transtornos","transtornos","otros transtornos neurologicos","otros transtornos biologicos","otros transtornos conductuales", "transtorno oposicional desafiante",  "transtorno de conducta", "transtorno afectivo", "transtorno de anciedad", "tourette", "sindrome de tourette" , "tdah tourette"],
+			"respuestas":["los síntomas del TDAH muchas veces se confunden o aparecen con otros trastornos neurológicos, biológicos y conductuales. Casi la mitad de los niños con TDAH (en especial, los varones) también tienden a padecer el trastorno oposicional desafiante. El trastorno de conducta aparece simultáneamente entre el 30 y el 50% de los niños con TDAH. Del 20 al 30% de los niños con TDAH evidencian trastornos afectivos, y el 25%, trastornos de ansiedad. A su vez, más de un 20% presentan problemas específicos del aprendizaje (en lectura, escritura, matemáticas). Existe además un vínculo entre el TDAH y el trastorno de tics o síndrome de Tourette, un trastorno neurobiológico que se caracteriza por tics motores y vocales. Si bien sólo un pequeño porcentaje de las personas con TDAH tienen Tourette, por lo menos el 70% de los que padecen Tourette también tiene TDAH"]
+		},
+		{"tag":"dificultad",
+			"patrones":["dificultad de aprendizaje tdah", "aprendizaje tdah", "dificultades tdah", "dificultad para concentrarse tdha", "se aburren facilmente tdah", "terminan actividades tdah"],
+			"respuestas":["Los niños con TDAH experimentan muchas dificultades para concentrarse y prestar atención; se aburren fácilmente y no terminan sus actividades correctamente. Esto hace que su rendimiento en clase sea menor de lo esperado con respecto a su capacidad intelectual"]
+		},
+		{"tag":"curable",
+			"patrones":["tdah curable", "tdah se cura", "tdah desaparece", "eliminar tdah"],
+			"respuestas":["El niño con TDAH no puede dejar de serlo, dado que no se puede hacer que desaparezcan la causas de su trastorno (una alteración evolutiva que afecta a la maduración de algunas de sus funciones mentales y a su desarrollo). Sin embargo, es posible mitigar o eliminar las consecuencias negativas o síntomas que produce este trastorno. Un buen tratamiento, aplicado desde muy temprana edad, puede evitar los déficits en la las capacidades afectadas por el trastorno y en el proceso de aprendizaje, que interfieren en la maduración del niño. En la mayor parte de los casos -dependiendo del tiempo de evolución del trastorno sin tratamiento-, se pueden evitar las limitaciones en el rendimiento escolar, en la percepción de sí mismo y del entorno, el desarrollo de la competencia social, etc."]
+		},
+		{"tag":"mejora_tda",
+			"patrones":["mejora", "empeora", "evoluciona del tdah" , "cuidados" , "prevencion", "pronostico"],
+			"respuestas":["Existen varios factores que ayudan a una buena evolución del trastorno. Un diagnostico precoz: Una educación coherente por parte de los padres, La transmisión de valores positivos y estabilidad familiar, el conocimiento por parte de los profesores y adaptación de las actividades educativas, La colaboración entre los padres y la escuela"]
+		},
+		{"tag":"no_tratado",
+			"patrones":["no tratado", "sin tratamiento", "no tratado", "no tratado en infancia" , "no tratar tdah", "adolescente no tratado"],
+			"respuestas":["El adolescente que no haya tratado su TDAH durante la infancia tendrá unos síntomas más marcados y podría mostrar otras alteraciones asociadas, como la ansiedad, trastornos de conducta, inadaptación social o consumo de sustancias. El TDAH no sólo afecta gravemente la vida personal y social de los jóvenes, sino que también repercute intensamente en sus familias, en la sociedad, y aumenta las necesidades de prestación sanitaria. Un adolescente con TDAH sin tratamiento no sólo sufre un deterioro en las relaciones con los compañeros. También podría desarrollar conductas de riesgo, que suelen aumentar la probabilidad de sufrir traumatismos y accidentes de tráfico, embarazos no deseados o consumo de sustancias."]
+		},
+		{"tag":"adulto_tdah",
+			"patrones":["un adulto puede tener tdah", "adulto con tdah", "adulto tdah", "adultos aprendizaje tdah"],
+			"respuestas":["El TDAH no desaparece con la edad. Sin embargo, como ha sido un trastorno poco conocido en otras épocas, existen muchos adultos que nunca han sido diagnosticados.cMuchos de ellos han compensado sus deficiencias y han aprendido a controlar las consecuencias negativas, que no constituyen un impedimento importante en el desarrollo de buena parte de su actividad. Sin embargo, otros no han desarrollado adecuadamente algunas de las facetas básicas de la persona, sufriendo trastornos de la personalidad, alteraciones emocionales graves, problemas afectivos o laborales, mayores tasas de accidentes de tráfico, dificultades en las relaciones sociales."]
+		},
+		{"tag":"escuela_tdah",
+			"patrones":["escuela niños con tdah", "que puede hacer la escuela", "colegio", "estudios", "escuela"],
+			"respuestas":["Conocer el problema para poder comprender e intervenir adecuadamente. Esto implica asesorar a los padres en la derivación del niño a un especialista adecuado y comprender las necesidades específicas del niño. La colaboración entre colegio y familia es fundamental para un tratamiento efectivo. En muchos casos, el niño necesitará una valoración pedagógica que determine sus necesidades académicas, así como un plan de intervención escolar personalizado. Por otra parte, el profesorado debe informar a los padres a lo largo de todo el curso escolar, intercambiando información y experiencias, fomentando la colaboración entre la escuela y la familia."]
+		},
+		{"tag":"aceptar_tda",
+			"patrones":["apoyar hijo con tdah","apoyar hijo con tda-h", "apoyar hijo con tda"],
+			"respuestas":["Aceptar el problema y acudir a especialistas que diagnostiquen y elaboren un tratamiento adecuado para el trastorno. A su vez, deberán buscar asesoramiento psicológico y psicopedagógico que les ofrezcan pautas educativas para establecer la relación educativa con su hijo, y la buena comunicación con el colegio. De esta forma se trabajará en sintonía desde las tres perspectivas: familia, colegio, especialistas."]
+		},
+		{"tag":"dignostico",
+			"patrones":["diagnostico","diagnosticando tda","diagnostico tda","diagnosticar tda", "diagnosticar tda-h", "diagnosticar tdah", "que se necesita para diagnosticar tdah", "que se necesita para diagnosticar tda-h"],
+			"respuestas":["El diagnóstico de TDAH se produce cuando la persona evidencia síntomas de inatención, impulsividad e hiperactividad antes de los siete años. Cada uno de estos síntomas se manifiesta a través de unos comportamientos determinados, que suelen ser normales en cualquier niño. Sin embargo, en el caso de niños con TDAH se dan con más frecuencia e intensidad y se manifiestan en dos o más ambientes (por ejemplo, en casa o en la escuela). Estos síntomas interfieren en su proceso de aprendizaje y/o en sus relaciones sociales, y más tarde, en su vida profesional."]
+		},
+		{"tag":"edad_diganostico",
+			"patrones":["edad para diagnosticar", "a partir de quedad se puede diagnosticar tdah", "a partir de quedad se puede diagnosticar tda-h", "momento para diagnosticar"],
+			"respuestas":["un profesional debe hacer diagnostico y se justifica siempre que se observen problemas en el funcionamiento cotidiano de un niño respecto a lo que se espera por su edad, o si es un niño al que no se consigue manejar educativamente. Es por ello que no existe una edad ‘ideal’ para acudir al profesional; esto dependerá de las características de cada caso. Sin embargo, el Déficit de Atención con Hiperactividad no puede diagnosticarse de manera suficientemente fiable hasta los cuatro o cinco años de edad."]
+		},
+		{"tag":"recomendaciones",
+			"patrones":["recomendación padres", "hay recomendaciones para padres"],
+			"respuestas":["Se recomienda la aplicación de un programa de entrenamiento conductual para los padres de los niños y adolescentes diagnosticados de TDAH, con o sin comorbilidad."]
+		},
+		{"tag":"recomendaciones_escuela",
+			"patrones":["que adaptaciones son utiles en el contexto escolar"],
+			"respuestas":["Cuando el TDAH tiene un impacto significativo en la competencia académica del niño o del adolescente, las escuelas deberían llevar a cabo adaptaciones para ayudarles en el aula."]
+		},
+		{"tag":"no_es_tdah",
+			"patrones":["Que no es tda", "que no es TDAH", "que no es TDA-h"],
+			"respuestas":["NO ES falta de inteligencia, ni retraso mental. No son niños necesariamente vagos ni desmotivados. Esta idea falsa ha surgido porque las dificultades atencionales pueden incidir negativamente en el rendimiento académico. El TDAH puede darse en personas de cualquier nivel de inteligencia."]
+		},
+		{"tag":"SNS",
+			"patrones":["Sns", "que es sns"],
+			"respuestas":["Sistema Nacional de Salud"]
+		},
+		{"tag":"SIGN",
+			"patrones":["sign", "que es sign"],
+			"respuestas":["National Institute for Health and Clinical Excellence"]
+		},
+		{"tag":"NICE",
+			"patrones":["nice", "que es nice"],
+			"respuestas":["National Institute for Health and Clinical Excellence"]
+		},
+		{"tag":"GPC",
+			"patrones":["GPC", "que es gpc"],
+			"respuestas":["Guía de Práctica Clínica"]
+		},
+		{"tag":"DSM –IV-TR",
+			"patrones":["DSM –IV-TR"],
+			"respuestas":["Manual Diagnóstico y Estadístico de los Trastornos Mentales, 4.ª edición, texto revisado"]
+		},
+		{"tag":"CIE-10",
+			"patrones":["COE-10", "que es cie-10"],
+			"respuestas":[]
+		},
+		{"tag":"prevencion",
+			"patrones":["¿cómo prevenir el tda?", "¿cómo prevenir?", "prevenir", "¿cómo prevenir el tdah?", "¿cómo prevenir el tda-h?"],
+			"respuestas":["Prestar atención a la población de riesgo como son: antecedentes familiares de TDAH , prematuros, bajo peso al nacimiento, ingesta de tóxicos durante la gestación, traumatismos craneoencefálicos TCE graves"]
+		},
+		{"tag":"bipolar",
+			"patrones":["es bipolar", "trastorno de bipolaridad", "bipolar con tdah", "bipolar con tda", "que debe hacerse con el trastorno bipolar", "que hago si soy bipolar"],
+			"respuestas":["En casos de comorbilidad clara de trastorno bipolar con TDAH en niños y adolescentes, la medicación estimulante puede ser de utilidad para tratar el TDAH una vez que los síntomas del estado de ánimo estén controlados adecuadamente mediante otros fármacos."]
+		},
+		{"tag":"autismo",
+			"patrones":["tdah y autista", "tda-h y autista", "tda y autista", "que hacer si es autista", "que hacer si tiene autismo", "autismo y tda"],
+			"respuestas":["El uso del metilfenidato y la atomoxetina no está contraindicado en niños y adolescentes con TDAH y trastornos del espectro autista comórbidos. Sin embargo, deben utilizarse con prudencia."]
+		},
+		{"tag":"epilepsias",
+			"patrones":["tda y epilepsia", "tdah y epilepsia", "tda-h y epilepsia", "¿qué debe hacerse con la epilepsia?", "¿Qué hacer si tiene epilepsia y tda?"],
+			"respuestas":["El uso del metilfenidato no está contraindicado en niños y adolescentes con TDAH y epilepsia comórbida."]
+		},
+		{"tag":"eficacia",
+			"patrones":["eficacia del tratamiento", "que tan eficaz en el tratamiento farmacológico", "tratamiento", "eficacia", "¿En qué momento del tratamiento se debería valorar su eficacia?"],
+			"respuestas":["En el tratamiento farmacológico de niños y adolescentes con TDAH la evaluación de la eficacia y tolerabilidad de la intervención se realizará, al menos, al cabo de 1, 3 y 6 meses del inicio del tratamiento, y posteriormente cada 6 meses mientras continúe el mismo, o bien, siempre que se hagan ajustes de dosis o cambios de fármaco."]
+		},
+		{"tag":"farmacos_aplazar",
+			"patrones":["es recomendable tener periodos libres", "descanso farmacológico", "periodos de descaso"],
+			"respuestas":["Los períodos de descanso del tratamiento farmacológico no están recomendados de manera sistemática en el tratamiento del TDAH."]
+		},
+		{"tag":"tratamiento_no_optimo",
+			"patrones":["¿disminuye la eficacia del tratamiento farmacológico?"],
+			"respuestas":["El tratamiento farmacológico con metilfenidato y atomoxetina para el TDAH en niños y adolescentes debería continuarse en el tiempo mientras demuestre efectividad clínica"]
+		},
+		{"tag":"alimentacion",
+			"patrones":["alimentación", "dieta"],
+			"respuestas":["Se recomienda asegurar un adecuado aporte nutricional a los niños y adolescentes en tratamiento farmacológico para el TDAH con anorexia secundaria al tratamiento."]
+		},
+		{"tag":"cuidados_previos",
+			"patrones":["cuidados previos al tratamiento farmacológico", "cuidados previos", "cuidados precios de fármacos"],
+			"respuestas":["En niños y adolescentes con TDAH en tratamiento farmacológico deben monitorizarse el ritmo cardíaco y la presión arterial, y documentarlos antes y después de cada cambio de dosis, y sistemáticamente cada 3 meses."]
+		},
+		{"tag":"dur_farm",
+			"patrones":["duración de fármacos", "cual debería ser la duración del tratamiento", "duración del medicamento", "duración de la medicación"],
+			"respuestas":["Se recomienda valorar periódicamente la persistencia o la remisión de los síntomas. Una práctica aceptada es suspender el tratamiento farmacológico durante períodos cortos de 1 o 2 semanas anuales, obteniendo información del funcionamiento del niño o adolescente por parte de la familia y de la escuela"]
+		},
+		{"tag":"ef_sec",
+			"patrones":["efectos secundarios en fármacos", "cuáles son los efectos secundarios", "efectos secundarios frecuentes", "como abordar los efectos secundarios"],
+			"respuestas":["Se recomienda un seguimiento y monitorización periódicos de los posibles efectos adversos del metilfenidato y de la atomoxetina."]
+		},
+		{"tag":"cri_far",
+			"patrones":["criterio para usar fármacos", "cuando usar los fármacos"],
+			"respuestas":["El tratamiento farmacológico debe iniciarlo un médico adecuadamente calificado y experto en el tratamiento del TDAH y sus comorbilidades más frecuentes."]
+		},
+		{"tag":"efectividad",
+			"patrones":[ "efectividad de los fármacos", "efectividad del tratamiento", "efectividad de tratamiento", "tratamiento efectivo"],
+			"respuestas":["Puede recomendarse el tratamiento a largo plazo pero no disminuye su efectividad."]
+		},
+		{"tag":"entrevistas",
+			"patrones":["entrevistas", "¿Qué entrevistas son útiles para el diagnóstico?", "como se diagnostica", "estructura de la entrevista"],
+			"respuestas":["Las  entrevistas  estructuradas  y  semiestructuradas  son  útiles  para  establecer  el  diagnóstico  del  TDAH  y  sus  comorbilidades  en  niños  y  adolescentes."]
+		},
+		{"tag":"evolicion",
+			"patrones":["evolución del tda", "evolución del tdah", "evolución del tda-h", "escalas de evaluación", "evolución del diagnóstico"],
+			"respuestas":["La  información  que  proporcionan  padres  y  docentes,  mediante  las  escalas  de  evaluación,  es  útil  para  el  diagnóstico  del  TDAH  en  niños  y  adolescentes  y  para  evaluar  la  evolución  de  la  sintomatología  y  la  respuesta al  tratamiento."]
+		},
+		{"tag":"exploraciones",
+			"patrones":["son necesarias las exploraciones complementarias", "estudios complementarios", "estudios extras", "estudios complementarios"],
+			"respuestas":["Para  el  diagnóstico  del  TDAH  en  niños  y  adolescentes  no  están  indicadas las  pruebas  complementarias  de  laboratorio,  de  neuroimagen  o  neurofisiológicas,  a  menos  que  la  valoración  clínica  lo  justifique."]
+		},
+		{"tag":"evaluacion_psi",
+			"patrones":["evaluación psicopedagógica", "psicopedagógica"],
+			"respuestas":["La evaluación psicopedagógica es útil para valorar las dificultades y el estilo de aprendizaje, y establecer los objetivos de la intervención reeducativa."]
+		},
+		{"tag":"neu_eva",
+			"patrones":["evaluación neuropsicológica", "neuropsicológica"],
+			"respuestas":["La exploración neuropsicológica del TDAH en niños y adolescentes resulta útil para conocer el perfil de habilidades y dificultades en el funcionamiento cognitivo y la comorbilidad con trastornos específicos del aprendizaje."]
+		},
+		{"tag":"crit_diag",
+			"patrones":["criterios de diagnóstico"],
+			"respuestas":["Para  el  diagnóstico  del  TDAH  en  niños  y  adolescentes  se  recomienda emplear  los  criterios  diagnósticos  del  DSM-IV-TR  o  de  la  CIE-10."]
+		},
+		{"tag":"adiccion",
+			"patrones":["adicción a los fármacos", "produce acción el tratamiento", "produce adicción el tratamiento farmacológico"],
+			"respuestas":["No existe ninguna prueba en este sentido. De hecho, una vez ajustada la dosis eficaz, no hace falta aumentarla, salvo para adaptarla a los cambios del crecimiento (mayor talla y peso del niño). Su administración está relacionada con una menor probabilidad de desarrollar trastornos por abuso de drogas en la adolescencia."]
+		},
+		{"tag":"apoyo_psico",
+			"patrones":["apoyo psicológico y psicopedagógico", "psicológico y psicopedagógico", "psicológico"],
+			"respuestas":["Sí. Esto se debe a que el TDAH es un trastorno complejo; muchos de sus síntomas tienen que ver con las características individuales del niño, como el sexo o la edad, y otros, con agentes externos como el entorno familiar y social. Por todo ello, el tratamiento del TDAH debe basarse en un programa multimodal, que no sólo incluya intervenciones de tipo farmacológico, sino también psicológico (para analizar y tratar la psique del niño) y psicopedagógicas (para integrarlo en el entorno escolar). Ninguna de estas intervenciones es exclusiva; no puede, ni debe sustituir a las demás."]
+		},
+		{"tag":"medicacion",
+			"patrones":["debo tomar medicamento", "mi hijo debe tomar medicamento ", "mi padre debe tomar medicamento", "mi madre debe tomar medicamento", "mis padres deben tomar medicamento", "se debe tomar medicamento"],
+			"respuestas":["El objetivo de la medicación es estimular aquellas áreas cerebrales que están poco activas. De esta forma se mejoran los síntomas principales del trastorno, el rendimiento académico y el comportamiento del niño. También se facilitan las interacciones escolares, familiares y sociales, dando lugar a un desarrollo más eficaz de las intervenciones psicológicas y pedagógicas. Sin embargo, siempre se debe consultar al médico de familia o al pediatra en caso de iniciarse un tratamiento farmacológico, dado que no se puede predecir que niños responderán bien a la medicación estimulante. Se sabe que cuanto más severos son los síntomas, la respuesta suele ser también mejor."]
+		},
+		{"tag":"trata",
+			"patrones":["cómo se trata", "tratamiento", "como se trata el tdah", "como se trata el tda", "como se trata el tda-h"],
+			"respuestas":["El tratamiento del TDAH exige una intervención multimodal, que incluya tratamiento farmacológico, psicoeducación y entrenamiento de padres, intervenciones psicológicas conductuales o cognitivo-conductuales e intervenciones escolares y psicopedagógicas."]
+		},
+		{"tag":"funcion",
+			"patrones":[ "para que sirve el tratamiento", "para que sirve un tratamiento"],
+			"respuestas":["Un tratamiento precoz y bien organizado ayudará a controlar los síntomas principales del TDAH (hiperactividad, inatención e impulsividad), facilitando el proceso de aprendizaje académico y de comportamiento, mejorando las interacciones sociales, disminuyendo el riesgo de que aparezcan otros trastornos asociados y ayudando a que el niño tenga un mejor pronóstico de futuro."]
+		},
+		{"tag":"rebelde",
+			"patrones":["todos los niños con tdah son rebeldes", "niños con tdah oposicionistas", "tdah oposicionista", "tdah desafiante", " niños con tdah son desafiantes" , "persona tdah desafiante" , "persona tdha agresivo" , "persona tdah desobediente", "tdah conteston", "niño tdah conteston", "conducta de un niño con tdah", "conducta de niño tdah", "conducta tdah", "interrumpe hijo tdah", "hijo conducta tdah", "reprimidos tdah", "niños tdah rebeldes"],
+			"respuestas":["Estas conductas son muy frecuentes en los niños con TDAH (son desobedientes, contestan a los adultos, parecen no escuchar cuando se les manda hacer algo, discuten o interrumpen con frecuencia). Esto se debe a que estos niños tienen dificultades para percibir su propia realidad y la de su entorno, lo que provoca que se sientan incomprendidos y -reprimidos- ante cualquier intento de corrección. Sin embargo, las conductas oposicionistas y desafiantes no siempre están presentes. Y pueden surgir como síntomas accesorios del trastorno. Un niño sin TDAH también puede presentar este tipo de conductas (aunque con mucha menos frecuencia)"]
 		}
 	]
 }
