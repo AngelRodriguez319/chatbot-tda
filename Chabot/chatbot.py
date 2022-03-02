@@ -34,10 +34,13 @@ class ChatBot():
                     cubeta[i] = 1
         resultados = self.modelo.predict([numpy.array(cubeta)])
         resultadosIndices = numpy.argmax(resultados)
+        probabilidad = resultados[0][resultadosIndices] * 100
+        if probabilidad < 50:
+            return [probabilidad, "Lo siento no pude entender lo que dijiste, podrias escribirlo de otra manera por favor :)"]
         tag = self.tags[resultadosIndices]
         for tagAux in self.datos['contenido']:
             if tagAux['tag'] == tag:
                 respuesta = tagAux["respuestas"]
         
         response = random.choice(respuesta) 
-        return response
+        return [probabilidad, response]

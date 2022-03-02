@@ -1,7 +1,7 @@
 {"contenido":[
 		{"tag":"saludo", 
-			"patrones":["hola", "un saludo", "hello", "hi", "buen dia","mucho gusto","buenas tardes","buenas noches","si","eh","oye"],
-			"respuestas":["¡Hola! Soy DAVE, pregúntame algo sobre el TDA"]
+			"patrones":["hola", "un saludo", "hello", "hi", "buen dia","mucho gusto","buenas tardes","buenas noches","si","eh","oye", "que tal"],
+			"respuestas":["¡Hola! Soy DAVE, pregúntame algo sobre el Trastorno de Déficit de Atención (TDA)"]
 		},
 		{"tag":"despedida",
 			"patrones":["adios", "bye", "hasta la proxima", "gracias","hasta luego","chao","chau","tchao"],
@@ -36,19 +36,19 @@
 			"respuestas":["De acuerdo a la decisión de la familia se puede medicar, utilizar medicina alternativa, llevar un régimen alimenticio o utilizar actividades extra curriculares para disminuir los síntomas y ayudar a la funcionalidad de la persona."]
 		},
 		{"tag":"especialista",
-			"patrones":["especialista", "cual especialista?", "consulta", "consultar", "acudir"],
+			"patrones":["especialista", "cual especialista?", "consulta", "consultar", "acudir", "recomendar consulta"],
 			"respuestas":["Psicólogo, paidopsiquiatra o neurólogo."]
 		},
 		{"tag":"tdah",
-			"patrones":["tdah", "tda-h"],
+			"patrones":["tdah", "tda-h", "que es tda-h"],
 			"respuestas":["Aparte del TDA, existe el TDA-H, que se caracteriza por, además de todo lo que conlleva el TDA, acompañarse de hiperactividad. Las personas con hiperactividad tienden a necesitar estar en constante movimiento. Algunos síntomas son el deambular, el estar en movimento constante, el hablar en exceso o la dificultad para participar en actividades silenciosas como la lectura."]
 		},
 		{"tag":"impulsividad",
-			"patrones":["impulsividad"],
+			"patrones":["impulsividad", "tengo impulso", "no puedo contorlarme"],
 			"respuestas":["La impulsividad puede acompañar al TDA o al TDA-H. Se caracteriza por tener reacciones rápidas, inesperadas y desmedidas ante las situaciones. La persona no puede controlarse y sucumbe ante cualquier tentación o deseo que sienta sin tener en cuenta las consecuencias de sus actos."]
 		},
 		{"tag":"descubrimiento",
-			"patrones":["año descubrio" , " descrubrio", "padre tdah", "padre del tda"],
+			"patrones":["año descubrio" , "descrubrio", "padre tdah", "padre del tda", "descubrimiento"],
 			"respuestas":["1845, Heinrich Hoffmann es el primero en describir el comortamiento de niños hiperactivos. 1902, George Still describió los síntomas del que hoy conocemos como TDAH combinado"]
 		},
 		{"tag":"cantidadtda",
@@ -68,7 +68,7 @@
 			"respuestas":["TDA-H: Es un trastorno del desarrollo caracterizado por niveles de falta de atención, sobreactividad, impulsividad inapropiados desde el punto de vista evolutivo. Se muestran muy inquietos cuando deben permanecer sentados. En situaciones inadecuadas corre o trapa de manera excesiva. Como expresan muchas madres de niños hiperactivos, -es como si estuviera literalmente impulsado por un motor-. Continuamente está hablando, teniendo grandes dificultades en permanecer callado. En comparación, con la población del subtipo con déficit de atención, puede presentar más agresividad. --TDA, involucra falta de atención y concentración, así como también un comportamiento de distracción. Los niños que padecen de este subtipo no son excesivamente activos y tampoco interrumpen las clases; más bien ellos típicamente no completan sus tareas, se distraen con facilidad, cometen errores imprudentes y evitan actividades que requieren de trabajo mental continuo y de mucha concentración con frecuencia se les malinterpreta como perezosos, desmotivados e irresponsables.  Ellos representan aproximadamente el 30porciento de todos los individuos que padecen del TDAH."]
 		},
 		{"tag":"probabilidadtda",
-			"patrones":["es mas probable que un niño tenga tdah","es mas probable que una niña tenga tdah","quienes tienen mas posibilidades de padecer tdah" ,"lo niños o las niñas" ,"las niñas o los niños"],
+			"patrones":["es mas probable que un niño tenga tdah","es mas probable que una niña tenga tdah","quienes tienen mas posibilidades de padecer tdah" ,"lo niños o las niñas" ,"las niñas o los niños", "probable"],
 			"respuestas":["Con respecto a la relación entre los sexos, los niños son más propensos que las niñas a sufrir TDAH, en cifras que varían de 4 a 1. El TDAH que combina todos los síntomas es el más común en varones de edad escolar, mientras que el trastorno en el cual predomina el déficit de atención, es más usual entre chicas adolescentes."]
 		},
 		{"tag":"manifestacion",
@@ -80,7 +80,7 @@
 			"respuestas":["El TDAH tiene un componente genético importante, que determina hasta el 70% del trastorno. Sin embargo, los factores biológicos no genéticos y ambientales juegan también un papel importante en su desarrollo y, sobre todo, en la forma de manifestarse. Aunque su presencia en algún miembro de la familia es un factor de riesgo para los descendientes, no todos los niños con TDAH tienen antecedentes familiares."]
 		},
 		{"tag":"temporal",
-			"patrones":["tdah pasa con el tiempo","se cura con el tiempo","cuanto tiempo dura el tdah","tiempo dura tdah" ,"pasa con el tiempo tdah" ,"es para siempre el tdah","dura poco el tdah","cuanto dura el tdah" ,"tendré tdah toda la vida" ,"siempre seré hiperactivo"],
+			"patrones":["duracion", "tiempo", "tdah pasa con el tiempo","se cura con el tiempo","cuanto tiempo dura el tdah","tiempo dura tdah" ,"pasa con el tiempo tdah" ,"es para siempre el tdah","dura poco el tdah","cuanto dura el tdah" ,"tendre tdah toda la vida" ,"siempre sere hiperactivo"],
 			"respuestas":["La hiperactividad es el resultado de una alteración evolutiva que afecta a la maduración de algunas funciones mentales y al desarrollo del niño. Esto supondrá una realización defectuosa de ciertos aprendizajes. Se estima que más del 80% de los niños que presentan el trastorno continuarán padeciéndolo en la adolescencia, y entre el 30-65% lo presentarán también en la edad adulta. Sin embargo, las manifestaciones del trastorno irán variando notablemente a lo largo de la vida. Sólo un buen tratamiento podrá mejorar el comportamiento hiperactivo."]
 		},
 		{"tag":"tdamalo",
@@ -153,30 +153,22 @@
 		},
 		{"tag":"SNS",
 			"patrones":["Sns", "que es sns"],
-			"respuestas":["Sistema Nacional de Salud"]
+			"respuestas":["Es el Sistema Nacional de Salud"]
 		},
 		{"tag":"SIGN",
-			"patrones":["sign", "que es sign"],
-			"respuestas":["National Institute for Health and Clinical Excellence"]
-		},
-		{"tag":"NICE",
-			"patrones":["nice", "que es nice"],
+			"patrones":["sign", "que es sign", "nice", "que es nice", "insistuto de salud"],
 			"respuestas":["National Institute for Health and Clinical Excellence"]
 		},
 		{"tag":"GPC",
-			"patrones":["GPC", "que es gpc"],
+			"patrones":["GPC", "que es gpc", "guias", "guias que ayudan"],
 			"respuestas":["Guía de Práctica Clínica"]
 		},
-		{"tag":"DSM –IV-TR",
-			"patrones":["DSM –IV-TR"],
+		{"tag":"DSM -IV-TR",
+			"patrones":["DSM -IV-TR", "hay manuales al respecto?", "manuales", "informacion en documentos"],
 			"respuestas":["Manual Diagnóstico y Estadístico de los Trastornos Mentales, 4.ª edición, texto revisado"]
 		},
-		{"tag":"CIE-10",
-			"patrones":["COE-10", "que es cie-10"],
-			"respuestas":[]
-		},
 		{"tag":"prevencion",
-			"patrones":["¿cómo prevenir el tda?", "¿cómo prevenir?", "prevenir", "¿cómo prevenir el tdah?", "¿cómo prevenir el tda-h?"],
+			"patrones":["como prevenir el tda?", "como prevenir?", "prevenir", "como prevenir el tdah?", "como prevenir el tda-h?"],
 			"respuestas":["Prestar atención a la población de riesgo como son: antecedentes familiares de TDAH , prematuros, bajo peso al nacimiento, ingesta de tóxicos durante la gestación, traumatismos craneoencefálicos TCE graves"]
 		},
 		{"tag":"bipolar",
@@ -188,35 +180,35 @@
 			"respuestas":["El uso del metilfenidato y la atomoxetina no está contraindicado en niños y adolescentes con TDAH y trastornos del espectro autista comórbidos. Sin embargo, deben utilizarse con prudencia."]
 		},
 		{"tag":"epilepsias",
-			"patrones":["tda y epilepsia", "tdah y epilepsia", "tda-h y epilepsia", "¿qué debe hacerse con la epilepsia?", "¿Qué hacer si tiene epilepsia y tda?"],
+			"patrones":["tda y epilepsia", "tdah y epilepsia", "tda-h y epilepsia", "que debe hacerse con la epilepsia?", "que hacer si tiene epilepsia y tda?"],
 			"respuestas":["El uso del metilfenidato no está contraindicado en niños y adolescentes con TDAH y epilepsia comórbida."]
 		},
 		{"tag":"eficacia",
-			"patrones":["eficacia del tratamiento", "que tan eficaz en el tratamiento farmacológico", "tratamiento", "eficacia", "¿En qué momento del tratamiento se debería valorar su eficacia?"],
+			"patrones":["eficacia del tratamiento", "que tan eficaz en el tratamiento farmacologico", "tratamiento", "eficacia", "en que momento del tratamiento se debería valorar su eficacia?"],
 			"respuestas":["En el tratamiento farmacológico de niños y adolescentes con TDAH la evaluación de la eficacia y tolerabilidad de la intervención se realizará, al menos, al cabo de 1, 3 y 6 meses del inicio del tratamiento, y posteriormente cada 6 meses mientras continúe el mismo, o bien, siempre que se hagan ajustes de dosis o cambios de fármaco."]
 		},
 		{"tag":"farmacos_aplazar",
-			"patrones":["es recomendable tener periodos libres", "descanso farmacológico", "periodos de descaso"],
+			"patrones":["es recomendable tener periodos libres", "descanso farmacologico", "periodos de descaso", "tiempo de medicamentos", "medicamentos"],
 			"respuestas":["Los períodos de descanso del tratamiento farmacológico no están recomendados de manera sistemática en el tratamiento del TDAH."]
 		},
 		{"tag":"tratamiento_no_optimo",
-			"patrones":["¿disminuye la eficacia del tratamiento farmacológico?"],
+			"patrones":["tratamiento no efectivo", "no efectivo", "disminuye la eficacia del tratamiento farmacologico?"],
 			"respuestas":["El tratamiento farmacológico con metilfenidato y atomoxetina para el TDAH en niños y adolescentes debería continuarse en el tiempo mientras demuestre efectividad clínica"]
 		},
 		{"tag":"alimentacion",
-			"patrones":["alimentación", "dieta"],
+			"patrones":["alimentacion", "dieta", "recomendacion de comida", "alimento"],
 			"respuestas":["Se recomienda asegurar un adecuado aporte nutricional a los niños y adolescentes en tratamiento farmacológico para el TDAH con anorexia secundaria al tratamiento."]
 		},
 		{"tag":"cuidados_previos",
-			"patrones":["cuidados previos al tratamiento farmacológico", "cuidados previos", "cuidados precios de fármacos"],
+			"patrones":["cuidados previos al tratamiento farmacologico", "cuidados previos", "cuidados precios de farmacos"],
 			"respuestas":["En niños y adolescentes con TDAH en tratamiento farmacológico deben monitorizarse el ritmo cardíaco y la presión arterial, y documentarlos antes y después de cada cambio de dosis, y sistemáticamente cada 3 meses."]
 		},
 		{"tag":"dur_farm",
-			"patrones":["duración de fármacos", "cual debería ser la duración del tratamiento", "duración del medicamento", "duración de la medicación"],
+			"patrones":["duracion de farmacos", "cual deberia ser la duracion del tratamiento", "duracion del medicamento", "duracion de la medicacion"],
 			"respuestas":["Se recomienda valorar periódicamente la persistencia o la remisión de los síntomas. Una práctica aceptada es suspender el tratamiento farmacológico durante períodos cortos de 1 o 2 semanas anuales, obteniendo información del funcionamiento del niño o adolescente por parte de la familia y de la escuela"]
 		},
 		{"tag":"ef_sec",
-			"patrones":["efectos secundarios en fármacos", "cuáles son los efectos secundarios", "efectos secundarios frecuentes", "como abordar los efectos secundarios"],
+			"patrones":["efectos secundarios en farmacos", "cuales son los efectos secundarios", "efectos secundarios frecuentes", "como abordar los efectos secundarios"],
 			"respuestas":["Se recomienda un seguimiento y monitorización periódicos de los posibles efectos adversos del metilfenidato y de la atomoxetina."]
 		},
 		{"tag":"cri_far",
@@ -264,11 +256,11 @@
 			"respuestas":["El objetivo de la medicación es estimular aquellas áreas cerebrales que están poco activas. De esta forma se mejoran los síntomas principales del trastorno, el rendimiento académico y el comportamiento del niño. También se facilitan las interacciones escolares, familiares y sociales, dando lugar a un desarrollo más eficaz de las intervenciones psicológicas y pedagógicas. Sin embargo, siempre se debe consultar al médico de familia o al pediatra en caso de iniciarse un tratamiento farmacológico, dado que no se puede predecir que niños responderán bien a la medicación estimulante. Se sabe que cuanto más severos son los síntomas, la respuesta suele ser también mejor."]
 		},
 		{"tag":"trata",
-			"patrones":["cómo se trata", "tratamiento", "como se trata el tdah", "como se trata el tda", "como se trata el tda-h"],
+			"patrones":["como se trata", "tratamiento", "como se trata el tdah", "como se trata el tda", "como se trata el tda-h"],
 			"respuestas":["El tratamiento del TDAH exige una intervención multimodal, que incluya tratamiento farmacológico, psicoeducación y entrenamiento de padres, intervenciones psicológicas conductuales o cognitivo-conductuales e intervenciones escolares y psicopedagógicas."]
 		},
 		{"tag":"funcion",
-			"patrones":[ "para que sirve el tratamiento", "para que sirve un tratamiento"],
+			"patrones":[ "para que sirve el tratamiento", "para que sirve un tratamiento", "funcion del tratamiento"],
 			"respuestas":["Un tratamiento precoz y bien organizado ayudará a controlar los síntomas principales del TDAH (hiperactividad, inatención e impulsividad), facilitando el proceso de aprendizaje académico y de comportamiento, mejorando las interacciones sociales, disminuyendo el riesgo de que aparezcan otros trastornos asociados y ayudando a que el niño tenga un mejor pronóstico de futuro."]
 		},
 		{"tag":"rebelde",

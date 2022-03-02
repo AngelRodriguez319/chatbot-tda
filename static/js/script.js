@@ -25,27 +25,33 @@ const getResponse = async () => {
         },
         redirect: 'follow',
         referrerPolicy: 'no-referrer',
-        body: JSON.stringify({
+        body: 
+        JSON.stringify({
             message: messageUser
         })
     });
 
+
     $('#message').val('');
     let json = await response.json();
+
 
     $('#conversation').append(`
         <li class="sent">
             <img src="../static/img/user.png" alt="" >
             <p>${messageUser}</p> 
         </li>
+
         <li class="replies">
             <img src="../static/img/chatbot.png" alt="" >
-            <p>${json['response']}</p>
+            <p>${json['response']}<br><br>
+            <font color="red">Probabilidad: ${json['probability'].toFixed(2)}%</font>
+            </p>
         </li>
     `);
-    
+
     $(".messages").animate({ 
-        scrollTop: $(document).height() 
+        scrollTop: 10000000 
     }, "fast");
 
 };

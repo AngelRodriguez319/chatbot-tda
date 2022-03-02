@@ -8,7 +8,6 @@ app = Flask(__name__, static_folder="static", template_folder="templates")
 cors = CORS(app, resources={r"*": {"origins": "*"}}, supports_credentials=True)
 bot = ChatBot()
 
-
 @app.route('/getResponse', methods=['POST'])
 def messageBot():
     data = request.json["message"]
@@ -16,7 +15,8 @@ def messageBot():
     return jsonify({
         'status': 200,
         'mimetype': 'application/json',
-        'response': response
+        'probability': response[0],
+        'response': response[1]
     })
 
 @app.route('/', methods=['GET'])
