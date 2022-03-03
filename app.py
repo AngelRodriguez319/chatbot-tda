@@ -1,7 +1,7 @@
 from os import environ
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-from Chabot.chatbot import ChatBot
+from Chatbot.chatbot import ChatBot
 import json
 
 app = Flask(__name__, static_folder="static", template_folder="templates")

@@ -1,11 +1,19 @@
 {"contenido":[
 		{"tag":"saludo", 
-			"patrones":["hola", "un saludo", "hello", "hi", "buen dia","mucho gusto","buenas tardes","buenas noches","si","eh","oye", "que tal"],
+			"patrones":["hola", "un saludo", "buen dia","mucho gusto","buenas tardes","buenas noches","si","eh","oye", "que tal"],
 			"respuestas":["¡Hola! Soy DAVE, pregúntame algo sobre el Trastorno de Déficit de Atención (TDA)"]
 		},
 		{"tag":"despedida",
-			"patrones":["adios", "bye", "hasta la proxima", "gracias","hasta luego","chao","chau","tchao"],
+			"patrones":["adios", "bye", "hasta la proxima", "gracias","hasta luego","chao"],
 			"respuestas":["Cuidate", "Un placer", "Nos vemos pronto", "Te estare esperando", "Espero haberte ayudado"]
+		},
+		{"tag": "estado",
+			"patrones": ["como estas?", "como te encuentras?", "estas"],
+			"respuestas": ["Bien gracias, y tu?"]
+		},	
+		{"tag": "origen",
+			"patrones":["Que eres?", "Que puedes hacer?", "para que sirves?", "quien te creo?", "creadores", "cual es tu origen"],
+			"respuestas":["Soy un bot diseñado para responder preguntas sobre el Trastorno de Déficit de Atención (TDA), me llamo DAVE y estoy creado con python."]
 		},
 		{"tag":"tener tda",
 			"patrones":["tengo", "tengo tda", "tener", "saber si tengo tda"],
